@@ -17,6 +17,7 @@ public class InversionTest002 {
 }
 
 class Person {
+	//这里就是依赖的接口
 	public void send(IReciever reciever){
 		System.out.println(reciever.getInfo());
 	}
