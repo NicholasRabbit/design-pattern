@@ -1,1 +1,6 @@
-1, 依赖
+1,依赖 Dependency
+2,泛化(就是继承)  Generalization
+3,实现 Implementation
+4,关联 Association
+5,聚合 Aggregation
+6,组合 Composition
