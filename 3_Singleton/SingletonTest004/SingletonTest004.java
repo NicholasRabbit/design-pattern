@@ -4,7 +4,7 @@
 优点：
 解决了线程安全问题
 缺点：
-每次获取实例的方法getInstance()都是同步的，实际这个方法只执行一次就够了，效率不高
+每次获取实例的方法getInstance()都是同步的，实际这个方法只执行一次就够了，有实例对象后直接return instance就行，这种效率不高
 */
 public class SingletonTest004 {
 	public static void main(String[] args){
