@@ -19,8 +19,8 @@ public class BuyCar {
 		do{
 			//获取用户输入的车型
 			carMake=getCarMake();
-			//从简单工厂类中获取指定车型
-			v = simpleFactory.createVehicle(carMake);
+			//从简单工厂类中获取指定车型，解耦合了，代替了原来不是用工厂模式的new对象的操作，
+			v = simpleFactory.createVehicle(carMake);  
 			//进行车的准备加工制造操作
 			if(v != null){
 				v.prepare();
