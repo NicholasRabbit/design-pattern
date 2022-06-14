@@ -1,6 +1,7 @@
-public abstract class Vehicle{
-	
-	protected String carMake;  //车型号
+
+public abstract class Vehicle {
+
+    protected String carMake;  //车品牌
 
 	//准备指定车型所需的部件,不同的车不同，因此有具体的车重写该方法
 	public abstract void prepare();  
@@ -22,4 +23,5 @@ public abstract class Vehicle{
 	public void setCarMake(String carMake){
 		this.carMake = carMake;
 	}
+
 }

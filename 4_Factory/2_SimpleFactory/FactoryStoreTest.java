@@ -1,10 +1,11 @@
 
 /*
-本例使用简单工厂模式（也称静态工厂模式）
-主要代码具体见工厂类SimpleFactory.java
+1,本例使用简单工厂模式（也称静态工厂模式）；
+2,主要代码具体见工厂类SimpleFactory.java；
+3,这里尽心买车的操作；
 */
 
-public class FactoryTest002 {
+public class FactoryStoreTest {
 
 	public static void main(String[] args){
 		//一，调用工厂内实例方法

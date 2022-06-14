@@ -25,11 +25,10 @@ public class BuyCar {
 			if(v != null){
 				v.prepare();
 				v.cnc();
-				v.buyComponent();
+				v.painting();
 				v.assembly();
 			}else{
 				System.out.println("买车失败！请输入正确的车型！");
-				break;
 			}	
 		} while (true);
 	}
