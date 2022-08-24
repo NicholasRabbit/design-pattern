@@ -18,11 +18,11 @@ public class FactoryStoreTest {
 		if("foreign".equals(location)){
 			//买进口车型
 			System.out.println("买进口车型");
-			BuyCar buyCar = new BuyForeignCar();
+			BuyCarAbstract buyCar = new BuyForeignCar();
 		}else if("domestic".equals(location)){
 			//买国产的车型
 			System.out.println("买国产车型");
-			BuyCar buyCar = new BuyDomesticCar();
+			BuyCarAbstract buyCar = new BuyDomesticCar();
 		}
 		
 		

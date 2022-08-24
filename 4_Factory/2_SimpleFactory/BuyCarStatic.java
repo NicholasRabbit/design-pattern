@@ -3,7 +3,7 @@ import java.util.*;
 import java.io.*;
 
 //增加一个SimpleFactory属性，可以调用它的方法来产生一个类型的车，让用户购买
-//这里调用的是其内的实例方法createVehicle(..)
+//这里调用的是其内的静态方法createVehicleStatic(..)，实际用法和实例方法一样，两种形式
 public class BuyCarStatic {
 	
 	Vehicle v;

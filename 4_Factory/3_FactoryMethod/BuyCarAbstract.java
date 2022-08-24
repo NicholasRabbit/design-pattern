@@ -1,12 +1,12 @@
 import java.io.*;
 import java.util.*;
 
-public abstract class BuyCar {
+public abstract class BuyCarAbstract {
 
    //写一个抽象方法，由具体的子类去实现，去确定制造国内或国外的什么品牌的车
    public abstract Vehicle createCar(String carMake);
 
-   public BuyCar(){
+   public BuyCarAbstract(){
 		toBuyCar();	  
    }
 	

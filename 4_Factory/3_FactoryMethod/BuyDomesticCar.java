@@ -1,6 +1,6 @@
 
 //国产车订购的类
-public class BuyDomesticCar extends BuyCar {
+public class BuyDomesticCar extends BuyCarAbstract {
 
  
     public Vehicle createCar(String carMake){

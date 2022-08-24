@@ -1,5 +1,5 @@
 
-public class BuyForeignCar extends BuyCar {
+public class BuyForeignCar extends BuyCarAbstract {
 
     public Vehicle createCar(String carMake){
 		Vehicle car = null;
