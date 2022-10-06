@@ -9,6 +9,9 @@ project/--> : javac -encoding utf-8 out /src/com/test/Test.java :编译Test.java
 javac -encoding utf-8 -d out src/com/factory/test/FactoryTest.java 
 							 src/com/factory/order/*.java  
 							 src/com/factory/entity/*.java
+另外，同一个包下的类，互相使用到了的话，也要一起编译，不能只编译一个，会报错
+例：com/prototype/no/Sheep.java,SheepTest.java
+SheepTest.java用到了Sheep.java,编译时也要同时编译
 
 
 (2)运行：

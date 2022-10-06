@@ -6,7 +6,7 @@ public class MkDir {
 
 	public static void main(String[] args){
 	
-		File f = new File("src/com/factory/order");
+		File f = new File("src/com/prototype/");
 		f.mkdirs();
 	}
 }
