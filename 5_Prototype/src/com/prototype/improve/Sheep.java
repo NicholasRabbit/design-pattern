@@ -5,6 +5,7 @@ public class Sheep implements Cloneable{
 	private int no;
 	private String name;
 	private double weight;
+	private Sheep sussan;   //被克隆的对象的的属性是一个引用数据类型
 
 	public Sheep(){
 	
@@ -40,6 +41,14 @@ public class Sheep implements Cloneable{
 		return "Sheep :{id=" + no + ", name=" + name + ", weight=" + weight + "}";
 	}
 
+	public void setSussan(Sheep sussan){
+		this.sussan = sussan;
+	}
+	public Sheep getSussan(){
+		return this.sussan;
+	}
+
+	
 	//重写Object的clone方法
 	protected Object clone(){
 		Sheep sheep = null;
