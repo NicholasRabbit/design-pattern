@@ -16,18 +16,26 @@ public class Sheep implements Cloneable{
 		this.weight = weight;
 	}
 
+	
 
     /**
      * 深拷贝的两种方法
      * 1，把拷贝对象中的引用属性再进行克隆
     */
-	protected Object clone() throws CloneNotSupportedException{
-		//(1)先完成基本属性的克隆
-        Object object = super.clone();
-        Sheep sheep = (Sheep) object;
-
-        //(2)让属性是对象的再单独进行克隆
-        sheep.deepCloneObject = (DeepCloneObject)deepCloneObject.clone();
+	protected Object clone(){
+		
+        Object object = null;
+		Sheep sheep = null;
+		try{
+			//(1)先完成基本属性的克隆
+			object = super.clone();
+			sheep = (Sheep) object;
+			//(2)让属性是对象的再单独进行克隆
+			DeepCloneObject deepCloneObject = new DeepCloneObject();
+			sheep.deepCloneObject = (DeepCloneObject)deepCloneObject.clone();
+		}catch(CloneNotSupportedException e){
+			e.printStackTrace();
+		}
         return sheep;
 
 	}
@@ -54,7 +62,20 @@ public class Sheep implements Cloneable{
 	}
 
 	
+	public void setDeepCloneObject(DeepCloneObject deepCloneObject) {
+		this.deepCloneObject = deepCloneObject;
+	}
+    public DeepCloneObject getDeepCloneObject() {
+        return deepCloneObject;
+    }
 
+	@Override
+	public String toString() {
+		return "Sheep [no=" + no + ", name=" + name + ", weight=" + weight + "]";
+	}
+
+	
+	
 	
 	
 	

@@ -9,7 +9,16 @@ public class DeepCloneObject implements Serializable,Cloneable{
 
     private int id;
     private String name;
-    public void setId(int id) {
+    
+	public DeepCloneObject(){
+	
+	}
+	public DeepCloneObject(int id,String name){
+		this.id = id;
+		this.name = name;
+	}
+	
+	public void setId(int id) {
         this.id = id;
     }
     public void setName(String name) {
@@ -21,6 +30,19 @@ public class DeepCloneObject implements Serializable,Cloneable{
     public String getName() {
         return name;
     }
+
+    
+
+    protected Object clone() throws CloneNotSupportedException{
+        return super.clone();
+    }
+
+    @Override
+    public String toString() {
+        return "DeepCloneObject [id=" + id + ", name=" + name + "]";
+    }
+
+    
     
 
 }
