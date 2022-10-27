@@ -1,0 +1,4 @@
+1,Help-->Install New Software
+  输入这个地址：http://download.eclipse.org/tools/gef/updates/releases/
+  选择Equinox..这个选项
+2,下载AmaterasUML_1.3.4，把解压后的三个jar包放到eclipse的plugins目录下，重启。

@@ -38,7 +38,7 @@ public class SheepTest {
 		Sheep sheep1 = (Sheep)sheep.clone();
 		Sheep sheep2 = (Sheep)sheep.clone();
 		System.out.println("sheep==>" + sheep + ",sussan==>" + sheep.getSussan().hashCode());
-		System.out.println("sheep1==>" + sheep1 + ",sussan==>" + sheep1.getSussan().hashCode());   //sheep1和2的属性Sheep sussan的hashCode值和sheep中的是一样的，说明指向了原型对象sheep中属性的引用。
+		System.out.println("sheep1==>" + sheep1 + ",sussan==>" + sheep1.getSussan().hashCode());   //sheep1和2的属性Sheep sussan的hashCode值和sheep中的是一样的，说明指向了原型对象sheep中属性的引用，此为浅拷贝。
 		System.out.println("sheep2==>" + sheep2 + ",sussan==>" + sheep2.getSussan().hashCode());
 	}
 }
