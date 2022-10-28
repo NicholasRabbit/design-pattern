@@ -1,6 +1,10 @@
 package com.prototype.deep;
 
-public class Sheep implements Cloneable{
+import java.io.*;
+
+public class Sheep implements Cloneable,Serializable{
+
+	private final static long serialNo = 2L;
 
 	private int no;
 	private String name;
@@ -27,7 +31,7 @@ public class Sheep implements Cloneable{
         Object object = null;
 		Sheep sheep = null;
 		try{
-			//(1)先完成基本属性的克隆
+			//(1)先完成基本类型属性和String类型的克隆
 			object = super.clone();
 			sheep = (Sheep) object;
 			//(2)让属性是对象的再单独进行克隆
@@ -37,6 +41,42 @@ public class Sheep implements Cloneable{
 			e.printStackTrace();
 		}
         return sheep;
+
+	}
+
+	/**
+	*2，通过序列化的方式实现深拷贝（推荐）；
+	*/
+	public Object deepCloneBySerialize(){
+		ByteArrayOutputStream baos = null;
+		ObjectOutputStream oos = null;
+		ByteArrayInputStream bais = null;
+		ObjectInputStream ois = null;
+		try{
+			//序列化对象
+			baos = new ByteArrayOutputStream();
+			oos = new ObjectOutputStream(baos);
+			oos.writeObject(this);
+			//反序列化对象
+			bais = new ByteArrayInputStream(baos.toByteArray());
+			ois = new ObjectInputStream(bais);
+			Sheep sheepDeep = (Sheep)ois.readObject();
+			return sheepDeep;
+
+		}catch(IOException | ClassNotFoundException e){
+			e.printStackTrace();
+			return null;
+		}finally{
+			try{
+				baos.close();
+				oos.close();
+				bais.close();
+				ois.close();
+			}catch (IOException e){
+				e.printStackTrace();
+			}
+		}
+		
 
 	}
 

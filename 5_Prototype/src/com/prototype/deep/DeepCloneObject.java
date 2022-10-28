@@ -34,7 +34,14 @@ public class DeepCloneObject implements Serializable,Cloneable{
     
 
     protected Object clone() throws CloneNotSupportedException{
-        return super.clone();
+        DeepCloneObject dco = null;
+		try{
+			dco = (DeepCloneObject)super.clone();
+		}catch(CloneNotSupportedException e){
+			e.printStackTrace();
+		}
+
+		return dco;
     }
 
     @Override
