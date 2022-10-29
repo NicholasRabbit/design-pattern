@@ -1,4 +1,3 @@
-package com.dp.builder.improve;
 
 /**
  * 建造房子的抽象类，这里定义建造过程，和房子进行的分离
