@@ -1,5 +1,5 @@
 
-
+//在这里和AbstractHouseBuilder是组合的关系，执行建造的过程。
 public class HouseBuildCommander {
 	
 	AbstractHouseBuilder ahb;
