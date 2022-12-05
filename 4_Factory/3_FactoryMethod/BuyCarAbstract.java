@@ -37,7 +37,7 @@ public abstract class BuyCarAbstract {
 	private String getCarBrand(){
 		try{
 			BufferedReader strIn = new BufferedReader(new InputStreamReader(System.in));
-			System.out.print("请输入车品牌，例：国产corrolla，进口corrolla import：");
+			System.out.print("请输入车品牌，例：国产:corrolla，进口:corrolla import：");
 			String carMake = strIn.readLine();
 			return carMake;
 		}catch(IOException e){
