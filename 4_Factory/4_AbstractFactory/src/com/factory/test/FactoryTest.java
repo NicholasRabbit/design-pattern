@@ -16,9 +16,9 @@ public class FactoryTest {
 
 
 	public static void main(String[] args){
-		//如果我需要丰田工厂的车，则新建一个ToyotaFactory.java类，当作实参传入
+		//如果我需要丰田工厂的车，则新建一个ToyotaFactory.java对象，当作实参传入
 		//new BuyCar(new ToyotaFactory());
-		//如果需要本田的则新建HondaFactory.java类
+		//如果需要本田的则新建HondaFactory.java对象
 		new BuyCar(new HondaFactory());
 		
 	}
