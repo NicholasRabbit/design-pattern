@@ -9,6 +9,7 @@ package com.decorator.food;
 public abstract class StapleFood extends Food {
 
 	
+	//重写toString()
 	public String toString(){
 		return "{" + getDescription() + "，价格：" + getPrice() + "}";
 	}

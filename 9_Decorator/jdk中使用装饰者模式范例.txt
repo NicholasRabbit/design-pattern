@@ -1,0 +1,7 @@
+
+FilterInputStream 及其子类相当于装饰者。
+
+InputStream及其子类相当于被装饰者。
+
+参考文档
+https://blog.csdn.net/zhao123h/article/details/52826682
