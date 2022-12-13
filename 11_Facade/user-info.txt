@@ -1,0 +1,4 @@
+user.name=Tom
+user.email=askTom@sina.com
+user.phone=13100001111
+href=http://cn.bing.com
