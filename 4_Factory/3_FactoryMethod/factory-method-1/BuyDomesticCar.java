@@ -1,5 +1,5 @@
 
-//国产车订购的类
+//国产车订购的类，工厂类
 public class BuyDomesticCar extends BuyCarAbstract {
 
  

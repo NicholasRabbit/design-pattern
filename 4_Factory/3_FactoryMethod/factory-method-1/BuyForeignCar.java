@@ -1,4 +1,5 @@
 
+//工厂类
 public class BuyForeignCar extends BuyCarAbstract {
 
     public Vehicle createCar(String carMake){
