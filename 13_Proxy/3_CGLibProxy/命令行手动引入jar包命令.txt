@@ -1,0 +1,7 @@
+注意引入jar包不要换行，注意名字不要写错
+手动引入jar包编译
+javac -encoding utf-8 src/com/javase/proxy/*.java -sourcepath src -d build -g -cp ./lib/log4j.jar;./lib/asm.jar;./lib/asm-commons.jar;./lib/asm.jar;./lib/asm-tree.jar;./lib/cglib-2.2.jar
+手动运行
+java -cp ./lib/log4j.jar;./lib/asm-8.0.jar;./lib/asm-commons.jar;./lib/asm-tree.jar;./lib/asm.jar;./lib/cglib-2.2.jar;../build  com.javase.proxy.CglibProxyTest
+
+使用log4j.jar依赖时注意加log4j.xml配置文件，配置文件中设置了打印日志的格式等信息。
