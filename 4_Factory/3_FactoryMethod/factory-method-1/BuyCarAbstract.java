@@ -12,7 +12,9 @@ public abstract class BuyCarAbstract {
 		toBuyCar();	  
    }
 	
-   public void toBuyCar(){
+   //这个方法用final修饰，不让子类重写，因为制造车的工序不可变更。
+   //这也是个模板方法，根据模板方法模式来讲，因为工厂方法也属于模板方法。
+   public final void toBuyCar(){
 		String carMake=null;
 		Vehicle v = null;
 		do{
