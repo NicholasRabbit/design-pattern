@@ -10,6 +10,7 @@ import java.util.Stack;
 public class MacroCommand implements Command {
 
     //用栈表示多个命令的集合，不用集合表示是因为用栈方便撤销上一条命令。
+    //这里用到了组合模式(Composite Pattern)来实现操作
     private Stack<Command> commands = new Stack<>();
 
     @Override
