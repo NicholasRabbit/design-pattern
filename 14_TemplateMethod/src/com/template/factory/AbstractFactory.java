@@ -13,7 +13,7 @@ public abstract class AbstractFactory {
 
 	//父类中的模板方法，这里规定好了程序执行的顺序，用final修饰，子类只能继承，不能重写
 	public final void manufacture(){
-		//这里规定好顺序
+		//这里规定好制造顺序
 		while(true){	
 			String carMake = getCarMake();
 			createCar(carMake);
