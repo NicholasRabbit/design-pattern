@@ -1,4 +1,4 @@
-public class Skyscraper extends AbstractHouseBuilder{
+public class SkyscraperBuilder extends AbstractHouseBuilder{
 
 
     @Override
