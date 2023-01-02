@@ -1,3 +1,5 @@
+package com.factory_method.entity;
+
 //进口汽车类
 public class PradoImport extends Vehicle{
 	

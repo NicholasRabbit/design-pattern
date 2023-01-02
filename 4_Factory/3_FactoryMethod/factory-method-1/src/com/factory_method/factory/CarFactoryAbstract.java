@@ -1,14 +1,17 @@
+package com.factory_method.factory;
+
+import com.factory_method.entity.*;
+
 import java.io.*;
-import java.util.*;
 
 
 //工厂类的父类，创建对象的方法交给子类去实现
-public abstract class BuyCarAbstract {
+public abstract class CarFactoryAbstract {
 
    //写一个抽象方法，由具体的子类去实现，去确定制造国内或国外的什么品牌的车
    public abstract Vehicle createCar(String carMake);
 
-   public BuyCarAbstract(){
+   public CarFactoryAbstract(){
 		toBuyCar();	  
    }
 	

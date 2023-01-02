@@ -1,3 +1,5 @@
+package com.factory_method.entity;
+
 //国产卡罗拉
 public class Corrolla extends Vehicle{
 	

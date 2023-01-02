@@ -36,7 +36,8 @@ public class DrawCanvas extends Canvas implements Drawable{
     public void draw(int x,int y) {
         Graphics g = getGraphics();
         g.setColor(color);
-        g.fillOval(x - radius,y - radius, radius * 2, radius * 2);
+        
+		g.fillOval(x - radius,y - radius, radius * 2, radius * 2); //这里是核心的命令语句
 
     }
 

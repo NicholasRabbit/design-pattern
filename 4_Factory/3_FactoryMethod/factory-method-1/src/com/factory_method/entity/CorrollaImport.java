@@ -1,3 +1,5 @@
+package com.factory_method.entity;
+
 public class CorrollaImport extends Vehicle{
 	
 

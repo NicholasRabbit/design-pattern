@@ -1,3 +1,4 @@
+package com.factory_method.entity;
 
 public abstract class Vehicle {
 

@@ -1,6 +1,9 @@
+package com.factory_method.factory;
+
+import com.factory_method.entity.*;
 
 //工厂类
-public class BuyForeignCar extends BuyCarAbstract {
+public class ForeignCarFactory extends CarFactoryAbstract {
 
     public Vehicle createCar(String carMake){
 		Vehicle car = null;

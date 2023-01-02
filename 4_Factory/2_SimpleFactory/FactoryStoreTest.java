@@ -1,8 +1,14 @@
 
 /*
+简单工厂模式：
 1,本例使用简单工厂模式（也称静态工厂模式）；
 2,主要代码具体见工厂类SimpleFactory.java；
-3,这里尽心买车的操作；
+3,这里进行买车的操作；
+简单工厂模式的不足：
+1,如果要增加新类型的产品就得修改SimpleFactory.java中的代码，不符合OCP原则；
+2,新类型过多造成SimpleFactory.java难以维护，而且不符合单一职责原则；
+改善：
+使用工厂方法模式可改善此问题。
 */
 
 public class FactoryStoreTest {
