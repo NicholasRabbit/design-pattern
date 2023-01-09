@@ -6,7 +6,7 @@ public class OpenCloseImprove {
 	public static void main(String[] args){
 		GraphicEditor g = new GraphicEditor();
 		g.draw(new Triangle());
-		//增加绘制圆形，只需new一个Circle类就行了，不用改动GraphicEditor的代码了
+		//增加绘制圆形，只需new一个Circle类就行了，对扩展开放。不用改动GraphicEditor的代码了，对修改关闭
 		g.draw(new Circle());
 	}
 	
