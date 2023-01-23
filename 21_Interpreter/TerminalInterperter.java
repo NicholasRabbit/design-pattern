@@ -13,6 +13,9 @@ public class TerminalInterperter extends AbstractInterpreter{
 	//分隔符
 	private String symbol;
 
+	//B:可以继续加一个子类，递归解析
+	AbstractInterpreter childExp;
+
 	public TerminalInterperter(){
 	
 	}
@@ -35,6 +38,9 @@ public class TerminalInterperter extends AbstractInterpreter{
 				return true;
 			}
 		}
+		
+		//B:使用子类继续解析
+		//childExp.interpret(userInfo);
 
 		//如果不符合免费要求则返回false
 		return false;
