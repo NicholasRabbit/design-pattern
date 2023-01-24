@@ -6,7 +6,9 @@
 */
 public class SimpleFactory {
 
-	//一，实例方法
+	//第一种方式
+	//一，实例方法，简单工厂模式只有一个创建对象的方法，使用if-else来区分判断不同的对象。
+	//工厂方法则是一个产品一个方法，或者一类产品一个方法。
 	public Vehicle createVehicle(String carMake){
 		Vehicle v = null;
 		System.out.println("执行简单工厂模式");
@@ -24,6 +26,7 @@ public class SimpleFactory {
 		return v;
 	}
 
+	//第二种方式
 	//二，静态方法
 	public static Vehicle createVehicleStatic(String carMake){
 		Vehicle v = null;

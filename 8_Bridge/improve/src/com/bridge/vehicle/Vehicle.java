@@ -3,6 +3,7 @@ package com.bridge.vehicle;
 
 import com.bridge.brand.*;
 
+//“桥”的抽象类
 public abstract class Vehicle {
 	
 	//聚合Brand类
