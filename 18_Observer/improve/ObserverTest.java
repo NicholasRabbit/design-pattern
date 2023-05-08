@@ -7,6 +7,8 @@ import java.util.*;
 * JDK中的Obserable,Observer就是观察者模式，
 * 其中Observable相当于本例的GameNews，之时没有Subjects接口
 * Observer是个观察者接口，没有实现类，留给程序员自己写实现类。
+
+* 用途：当业务符合订阅-发布这种场景时就考虑这个模式。
 */
 
 public class ObserverTest {
