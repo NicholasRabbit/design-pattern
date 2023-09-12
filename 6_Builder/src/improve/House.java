@@ -25,6 +25,9 @@ public class House {
 		this.roofHeight = roofHeight;
 	}
 	
+	public String toString(){
+		return "{" + "thickness:" + this.baseThick + "wall:" + wallThick + "roof:" + roofHeight + "}";
+	}
 	
 
 }

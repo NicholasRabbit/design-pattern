@@ -1,5 +1,5 @@
 
-FilterInputStream 及其子类相当于装饰者。
+FilterInputStream 继承InputStream(同时含有属性InputStream)及其子类相当于装饰者。
 
 InputStream及其子类相当于被装饰者。
 

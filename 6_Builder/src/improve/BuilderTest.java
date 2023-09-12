@@ -21,11 +21,13 @@ public class BuilderTest {
 		
 		AbstractHouseBuilder  villaBuilder = new VillaHouseBuilder();
 		HouseBuildCommander hbc = new HouseBuildCommander(villaBuilder);
-		hbc.contructHouse();
+		House villa = hbc.contructHouse();
+		System.out.println("villa" + villa);
 	
 		AbstractHouseBuilder  skyBuilder = new SkyscraperBuilder();
 		HouseBuildCommander hbc2 = new HouseBuildCommander(skyBuilder);
-		hbc2.contructHouse();
+		House skyscraper = hbc2.contructHouse();
+		System.out.println("skyscraper" + skyscraper);
 
 		
 	}
