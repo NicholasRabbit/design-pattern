@@ -1,6 +1,4 @@
  
- 2023/4/19
- 
  public final Logger getLogger(String name) {
         if (name == null) {
             throw new IllegalArgumentException("name argument cannot be null");
