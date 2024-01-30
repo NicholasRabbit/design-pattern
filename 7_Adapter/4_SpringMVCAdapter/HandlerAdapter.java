@@ -14,7 +14,7 @@ public interface HandlerAdapter {
 
 
 //多种适配器类
-//下面模拟mvc处理不用请求的适配器类
+//下面模拟mvc处理不同请求的适配器类
 class SimpleHandlerAdapter implements HandlerAdapter{
 	
 	public boolean support(Controller handler){

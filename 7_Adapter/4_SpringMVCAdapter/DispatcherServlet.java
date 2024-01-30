@@ -34,13 +34,15 @@ public class DispatcherServlet {
 
 
 	public void doDispatch(){
-		//模拟SpringMVC从request中获取到一个请求,然后给这个请求适配一个对应的处理器
+		//1, 模拟SpringMVC从request中获取到一个请求,然后给这个请求适配一个对应的处理器
+		//  这里模拟获取的是前端的简单请求，后端用SimpleController来处理。
 		Controller controller = new SimpleController();
 		//通过请求获取对应的适配器
 		HandlerAdapter adapter = getHandler(controller);
 		//实际是找到对应的适配器后，该适配器的handle方法内调用SimpleController的方法处理业务请求，替代了对应的Controller来处理请求。
 		adapter.handle(controller);
 
+		//2, 再模拟一个 Http请求，使用HttpController处理。
 		//后面再有别的请求，就增加请求处理类，增加适配器就可以了。
 		Controller httpController = new HttpController();
 		//写法上面一样

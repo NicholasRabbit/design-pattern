@@ -1,6 +1,6 @@
 # JDK里的设计模式
 
-#####  [2010年11月26日 ](https://coolshell.cn/articles/3320.html) [陈皓](https://coolshell.cn/articles/author/haoel) 评论  [150 条评论](https://coolshell.cn/articles/3320.html#comments)  63,351 人阅读
+[2010年11月26日 ](https://coolshell.cn/articles/3320.html) [陈皓](https://coolshell.cn/articles/author/haoel) 评论  [150 条评论](https://coolshell.cn/articles/3320.html#comments)  63,351 人阅读
 
 原文：https://coolshell.cn/articles/3320.html
 
@@ -68,9 +68,9 @@
 
 #### **Creational（创建模式）**
 
- **Abstract factory:** 创建一组有关联的对象实例。这个模式在JDK中也是相当的常见，还有很多的framework例如Spring。我们很容易找到这样的实例。
+ **Abstract factory:** 创建一组有关联的对象实例。这个模式在JDK中也是相当的常见，还有很多的framework例如Spring。我们很容易找到这样的实例。	
 
-- java.util.Calendar#getInstance()
+- java.util.Calendar#getInstance() - **Factory Method**
 - java.util.Arrays#asList()
 - java.util.ResourceBundle#getBundle()
 - java.sql.DriverManager#getConnection()
