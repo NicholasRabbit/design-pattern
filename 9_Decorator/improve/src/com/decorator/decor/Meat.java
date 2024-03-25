@@ -6,7 +6,7 @@ import com.decorator.food.*;
 public class Meat extends Decorator{
 
 	{
-		setPrice(15.00D);
+		setPrice(15.00D);   //These methods are in Food.java.
 		setDescription("肉卤");
 	}
 
