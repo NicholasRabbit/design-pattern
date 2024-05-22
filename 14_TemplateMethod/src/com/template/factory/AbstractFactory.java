@@ -52,7 +52,7 @@ public abstract class AbstractFactory {
 			e.printStackTrace();
 			return "";   //try catch总有一个会执行。
 		}finally{
-			//循环输入不能关闭流
+			//循环输入不需要关闭流
 			/*if(input != null){
 				try{
 					input.close();
