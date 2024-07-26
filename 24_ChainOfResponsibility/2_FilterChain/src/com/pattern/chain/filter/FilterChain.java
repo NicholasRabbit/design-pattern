@@ -47,7 +47,7 @@ public class FilterChain implements Filter{
     * */
     @Override
     public void doFilter(Request request, Response response, FilterChain chain) {
-        //如果游标在集合方位内就执行下一个Filter的方法
+        //如果游标在集合范围内就执行下一个Filter的方法
         if(cursor < filterList.size()){
 
             Filter filter = filterList.get(cursor);
