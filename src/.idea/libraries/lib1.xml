@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/13_Proxy/3_CGLibProxy/lib/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/13_Proxy/3_CGLibProxy/lib/log4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/13_Proxy/3_CGLibProxy/lib/asm-tree.jar!/" />
+      <root url="jar://$PROJECT_DIR$/13_Proxy/3_CGLibProxy/lib/asm-commons.jar!/" />
+      <root url="jar://$PROJECT_DIR$/13_Proxy/3_CGLibProxy/lib/cglib-2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

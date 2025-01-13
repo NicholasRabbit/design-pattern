@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/10_Composite/10_Composite.iml" filepath="$PROJECT_DIR$/10_Composite/10_Composite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_TemplateMethod/14_TemplateMethod.iml" filepath="$PROJECT_DIR$/14_TemplateMethod/14_TemplateMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15_Command/15_Command.iml" filepath="$PROJECT_DIR$/15_Command/15_Command.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16_Visitor/16_Visitor.iml" filepath="$PROJECT_DIR$/16_Visitor/16_Visitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18_Observer/18_Observer.iml" filepath="$PROJECT_DIR$/18_Observer/18_Observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19_Mediator/19_Mediator.iml" filepath="$PROJECT_DIR$/19_Mediator/19_Mediator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_SevenPrinciples/1_SevenPrinciples.iml" filepath="$PROJECT_DIR$/1_SevenPrinciples/1_SevenPrinciples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Proxy/1_StaticProxy/1_StaticProxy.iml" filepath="$PROJECT_DIR$/13_Proxy/1_StaticProxy/1_StaticProxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22_Strategy/22_Strategy.iml" filepath="$PROJECT_DIR$/22_Strategy/22_Strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/24_ChainOfResponsibility/24_ChainOfResponsibility.iml" filepath="$PROJECT_DIR$/24_ChainOfResponsibility/24_ChainOfResponsibility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Proxy/2_DynamicProxy/2_DynamicProxy.iml" filepath="$PROJECT_DIR$/13_Proxy/2_DynamicProxy/2_DynamicProxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/24_ChainOfResponsibility/2_FilterChain/2_FilterChain.iml" filepath="$PROJECT_DIR$/24_ChainOfResponsibility/2_FilterChain/2_FilterChain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_UML/2_UML.iml" filepath="$PROJECT_DIR$/2_UML/2_UML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_Proxy/3_CGLibProxy/3_CGLibProxy.iml" filepath="$PROJECT_DIR$/13_Proxy/3_CGLibProxy/3_CGLibProxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_SevenPrinciples/3_Inversion/3_Inversion.iml" filepath="$PROJECT_DIR$/1_SevenPrinciples/3_Inversion/3_Inversion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_Singleton/3_Singleton.iml" filepath="$PROJECT_DIR$/3_Singleton/3_Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_Factory/4_Factory.iml" filepath="$PROJECT_DIR$/4_Factory/4_Factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5_Prototype/5_Prototype.iml" filepath="$PROJECT_DIR$/5_Prototype/5_Prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_Builder/src/6_Builder.iml" filepath="$PROJECT_DIR$/6_Builder/src/6_Builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7_Adapter/7_Adapter.iml" filepath="$PROJECT_DIR$/7_Adapter/7_Adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8_Bridge/8_Bridge.iml" filepath="$PROJECT_DIR$/8_Bridge/8_Bridge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9_Decorator/9_Decorator.iml" filepath="$PROJECT_DIR$/9_Decorator/9_Decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_Builder/BuilderDemo/BuilderDemo.iml" filepath="$PROJECT_DIR$/6_Builder/BuilderDemo/BuilderDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design-Pattern.iml" filepath="$PROJECT_DIR$/Design-Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_Factory/4_AbstractFactory/abstract_factory/abstract_factory.iml" filepath="$PROJECT_DIR$/4_Factory/4_AbstractFactory/abstract_factory/abstract_factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_Factory/3_FactoryMethod/factory_method_01/factory_method_01.iml" filepath="$PROJECT_DIR$/4_Factory/3_FactoryMethod/factory_method_01/factory_method_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_Factory/3_FactoryMethod/factory_method_02/factory_method_02.iml" filepath="$PROJECT_DIR$/4_Factory/3_FactoryMethod/factory_method_02/factory_method_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8_Bridge/improve/improve.iml" filepath="$PROJECT_DIR$/8_Bridge/improve/improve.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_Factory/4_AbstractFactory/错误代码/错误代码.iml" filepath="$PROJECT_DIR$/4_Factory/4_AbstractFactory/错误代码/错误代码.iml" />
+    </modules>
+  </component>
+</project>

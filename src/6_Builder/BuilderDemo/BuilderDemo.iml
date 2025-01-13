@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ExcelBuilder" isTestSource="false" packagePrefix="com.by4cloud.platform.yunxiao.utils" />
+      <sourceFolder url="file://$MODULE_DIR$/JeeSite builder demo" isTestSource="false" packagePrefix="com.jeesite.modules.common.util" />
+      <sourceFolder url="file://$MODULE_DIR$/others builder demo" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
