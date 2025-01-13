@@ -120,7 +120,13 @@ JDK : Calender类里，createCalendar()方法 ,  NumberFormat.java , SimpleDateF
 
 而建造者模式是针对不同参数值对象的创建，注重的是内部复杂的参数的合理创建，每次根据要求创建具有不同属性值内部参数等的对象。
 
-#### 4，适配器模式
+#### 4, Prototype
+
+[The difference between shallow copy and deep copy.](https://medium.com/@pratik.941/understanding-the-cloneable-interface-shallow-copy-and-deep-copy-in-java-73c45066ecb1)
+
+
+
+#### 5，适配器模式
 
 1） 什么是适配器模式？
 
