@@ -1,4 +1,4 @@
-# JDK里的设计模式
+# Design Patterns in JDK
 
 [2010年11月26日 ](https://coolshell.cn/articles/3320.html) [陈皓](https://coolshell.cn/articles/author/haoel) 评论  [150 条评论](https://coolshell.cn/articles/3320.html#comments)  63,351 人阅读
 
